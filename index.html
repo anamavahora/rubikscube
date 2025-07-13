@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>2D Rubik's Cube</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>🧩 2D Rubik's Cube</h1>
+    <div class="stats">
+      <div>⏱ Time: <span id="timer">0</span>s</div>
+      <div>🔢 Moves: <span id="moves">0</span></div>
+    </div>
+  </div>
+  <div class="cube-container" id="cube"></div>
+  <div class="buttons">
+    <button onclick="shuffleCube()">🔀 Shuffle</button>
+    <button onclick="resetGame()">🔁 Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
